@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Latitude 5491\Documents\GitHub\Recursion\009\Source.cpp(8,10): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
+C:\Users\Latitude 5491\Documents\GitHub\Recursion\009\Source.cpp(19,11): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
+  009.vcxproj -> C:\Users\Latitude 5491\Documents\GitHub\Recursion\x64\Debug\009.exe
