@@ -21,10 +21,11 @@ int main()
 
 float LonNhat(float a[], int n)
 {
-	float max = a[n - 1];
-	for (int j =0; j < n; j++)
-		if (LonNhat(a, n-1) < a[j])
-			max = a[j];
+	if (n == 1)
+		return a[0];
+	float max = LonNhat(a, n - 1);
+	if (max < a[n - 1])
+		return a[n - 1];
 	return max;
 }
 
@@ -32,9 +33,7 @@ void LietKe(float a[], int n)
 {
 	if (n == 0)
 		return;
-
-	
-	if (LonNhat(a, n - 1) >= a[n - 1])
-		cout << n - 1 << " ";
 	LietKe(a, n - 1);
+	if (a[n - 1] == LonNhat(a, n))
+		cout << n - 1 << " ";
 }
