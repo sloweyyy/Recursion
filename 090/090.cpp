@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
 
-bool KiemTraDoiXung(int k);
-int TongDoiXung(float[], int);
+bool KiemTraDoiXung(int);
+int TongDoiXung(int[], int);
 
 int main()
 {
-	float a[1000];
-	int n;
+	int a[1000], n;
 	cout << "Nhap n: ";
 	cin >> n;
 	cout << "Nhap mang a: " << endl;
@@ -32,7 +31,7 @@ bool KiemTraDoiXung(int k)
 	return false;
 }
 
-int TongDoiXung(float a[], int n)
+int TongDoiXung(int a[], int n)
 {
 	if (n == 0)
 		return 0;
