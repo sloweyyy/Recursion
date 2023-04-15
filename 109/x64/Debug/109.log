@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Latitude 5491\Documents\GitHub\Recursion\109\Source.cpp(36,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Latitude 5491\Documents\GitHub\Recursion\109\Source.cpp(38,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Latitude 5491\Documents\GitHub\Recursion\109\Source.cpp(39,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  109.vcxproj -> C:\Users\Latitude 5491\Documents\GitHub\Recursion\x64\Debug\109.exe

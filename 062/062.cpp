@@ -49,29 +49,7 @@ void MergeSort(int a[], int left, int right) {
 		Merge(a, left, mid, right);
 	}
 }
-/*
-void Merge(int a[], int Left, int Mid, int Right) {
-	int* temp = new int[Right - Left + 1];
-	int i = Left, j = Mid + 1, k = 0;
-	while (!(i > Mid && j > Right)) {
-		if ((i <= Mid && j <= Right && a[i] <= a[j]) || j > Right)
-			temp[k++] = a[i++];
-		else
-			temp[k++] = a[j++];
-	}
-	for (int i = Left; i <= Right; i++)
-		a[i] = temp[i - Left];
-	delete[] temp;
-}
-void MergeSort(int arr[], int Left, int Right) {
-	if (Left < Right) {
-		int Mid = (Left + Right) / 2;
-		MergeSort(arr, Left, Mid);
-		MergeSort(arr, Mid + 1, Right);
-		Merge(arr, Left, Mid, Right);
-	}
-}
-*/
+
 void Output(int a[], int n) {
 	for (int i = 0; i < n; i++)
 		cout << a[i] << " ";
