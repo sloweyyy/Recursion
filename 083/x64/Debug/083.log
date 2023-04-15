@@ -1,0 +1,6 @@
+﻿  083.cpp
+D:\Uni\UIT_Together\RecursionGithub\083\083.cpp(7,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\Uni\UIT_Together\RecursionGithub\083\083.cpp(10,17): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\Uni\UIT_Together\RecursionGithub\083\083.cpp(16,13): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\Uni\UIT_Together\RecursionGithub\083\083.cpp(19,17): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  083.vcxproj -> D:\Uni\UIT_Together\RecursionGithub\x64\Debug\083.exe

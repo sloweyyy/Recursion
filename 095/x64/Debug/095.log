@@ -1,0 +1,3 @@
+﻿  095.cpp
+D:\Uni\UIT_Together\RecursionGithub\095\095.cpp(23,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  095.vcxproj -> D:\Uni\UIT_Together\RecursionGithub\x64\Debug\095.exe
