@@ -34,8 +34,8 @@ int main() {
 		cout << "a[" << i << "]: ";
 		cin >> a[i];
 	}
-	int kq = ViTriCuoi(a, n);
-	cout << "Vi tri cuoi cung cua so hoan thien trong mang la: " << kq;
+	int kq = TimGiaTri(a, n);
+	cout << "Gia tri nguyen to lon nhat trong mang la: " << kq;
 	delete[]a;
 	return 1;
 }
