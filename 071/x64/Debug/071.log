@@ -1,0 +1,3 @@
+﻿  071.cpp
+D:\Uni\UIT_Together\RecursionGithub\071\071.cpp(17,11): error C2440: 'initializing': cannot convert from 'int *' to 'float *'
+D:\Uni\UIT_Together\RecursionGithub\071\071.cpp(17,11): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
