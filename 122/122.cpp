@@ -15,7 +15,7 @@ int main()
 		cout << "a[" << i << "]: ";
 		cin >> a[i];
 	}
-	int x= TimChuSoDauLe(a, n);
+	int x = TimChuSoDauLe(a, n);
 	cout << "Gia tri dau tien trong mang co chu so dau la so le la : " << x;
 	return 1;
 }
@@ -35,6 +35,6 @@ int TimChuSoDauLe(int a[], int n)
 	if (TimChuSoDauLe(a, n - 1) != 0)
 		return TimChuSoDauLe(a, n - 1);
 	if (ChuSoDau(a[n - 1]) % 2 != 0)
-		return a[n-1];
+		return a[n - 1];
 	return 0;
 }
