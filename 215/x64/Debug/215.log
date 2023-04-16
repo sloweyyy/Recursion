@@ -1,4 +1,1 @@
-﻿  215.cpp
-D:\Uni\UIT_Together\RecursionGit\Recursion\215\215.cpp(38,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Uni\UIT_Together\RecursionGit\Recursion\215\215.cpp(39,18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-  215.vcxproj -> D:\Uni\UIT_Together\RecursionGit\Recursion\x64\Debug\215.exe
+﻿
