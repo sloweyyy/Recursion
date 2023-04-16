@@ -1,1 +1,5 @@
-﻿
+﻿  098.cpp
+C:\Users\PC\source\repos\Together\Recursion\098\098.cpp(19,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Together\Recursion\098\098.cpp(28,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC\source\repos\Together\Recursion\098\098.cpp(31,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  098.vcxproj -> C:\Users\PC\source\repos\Together\Recursion\x64\Debug\098.exe
