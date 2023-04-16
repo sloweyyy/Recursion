@@ -12,11 +12,12 @@ int n;
 void xuat() {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++)
-            cin >> A[i][j];
+            cout << A[i][j] << " ";
         cout << endl;
     }
     cout << endl;
 }
+
 
 bool diChuyen(int x, int y) {
     ++dem;
@@ -40,6 +41,7 @@ bool diChuyen(int x, int y) {
     return false;
 }
 
+
 int main() {
     cout << "Nhap n: ";
     cin >> n;
@@ -48,7 +50,13 @@ int main() {
     cin >> a;
     cout << "y: ";
     cin >> b;
-    if (!diChuyen(a, b)) {
-        cout << "Khong tim thay duong di.";
+    if (a < 0 || a >= n || b < 0 || b >= n) {
+        cout << "Vi tri ban dau khong hop le.\n";
+        return 0;
     }
+    if (!diChuyen(a, b)) {
+        cout << "Khong tim thay duong di.\n";
+    }
+    return 0;
 }
+

@@ -25,17 +25,28 @@ int ktCon(float a[], int n, int vt, int l) {
 	return flag;
 }
 
-int DemConGiam(float a[], int n) {
+int DemConGiam(float a[], int n, int vt) {
+	if (vt == n - 1) {
+		return 1;
+	}
 	int dem = 0;
-	for (int l = 1; l <= n; l++) {
-		for (int vt = 0; vt <= n - l; vt++) {
-			if (ktCon(a, n, vt, l) == 1) {
-				dem++;
-			}
+	for (int i = vt + 1; i < n; i++) {
+		if (a[i] < a[vt]) {
+			dem += DemConGiam(a, n, i);
 		}
 	}
 	return dem;
 }
+
+int DemConGiam(float a[], int n) {
+	int dem = 0;
+	for (int i = 0; i < n; i++) {
+		dem += DemConGiam(a, n, i);
+	}
+	return dem;
+}
+
+
 
 int main() {
 	int n;
