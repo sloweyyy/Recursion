@@ -1,3 +1,2 @@
 ﻿  167.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1096,5): error MSB6006: "link.exe" exited with code 1168.
-LINK : fatal error LNK1168: cannot open D:\Uni\UIT_Together\RecursionGit\Recursion\x64\Debug\167.exe for writing
+  167.vcxproj -> C:\Users\PC\source\repos\Together\Recursion\x64\Debug\167.exe

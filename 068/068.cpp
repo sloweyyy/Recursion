@@ -9,7 +9,7 @@ int main()
 	int n;
 	cout << "nhap so phan tu cua mang:";
 	cin >> n;
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < n-1; i++)
 		cin >> a[i];
 	cout << "mang la:";
 	Xuat(a, n);
