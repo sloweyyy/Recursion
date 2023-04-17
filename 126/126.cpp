@@ -26,7 +26,7 @@ int ViTriChanDau(int a[], int n)
 		return -1;
 	if (ViTriChanDau(a, n - 1) != -1)
 		return ViTriChanDau(a, n - 1);
-	if (a[n - 1] % 2 == 0)
+	if (a[n-1] % 2 == 0)
 		return (n - 1);
 	return -1;
 }

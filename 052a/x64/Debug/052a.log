@@ -1,8 +1,8 @@
 ﻿  052a.cpp
-C:\Users\PC\source\repos\Together\Recursion\052a\052a.cpp(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\PC\source\repos\Together\Recursion\052a\052a.cpp(12,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\PC\source\repos\Together\Recursion\052a\052a.cpp(20,10): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-C:\Users\PC\source\repos\Together\Recursion\052a\052a.cpp(21,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\PC\source\repos\Together\Recursion\052a\052a.cpp(22,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\PC\source\repos\Together\Recursion\052a\052a.cpp(23,22): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-  052a.vcxproj -> C:\Users\PC\source\repos\Together\Recursion\x64\Debug\052a.exe
+D:\Namnhat\Together\De quy\githubDQ\Recursion\052a\052a.cpp(1,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Namnhat\Together\De quy\githubDQ\Recursion\052a\052a.cpp(12,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Namnhat\Together\De quy\githubDQ\Recursion\052a\052a.cpp(20,10): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\Namnhat\Together\De quy\githubDQ\Recursion\052a\052a.cpp(21,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Namnhat\Together\De quy\githubDQ\Recursion\052a\052a.cpp(22,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Namnhat\Together\De quy\githubDQ\Recursion\052a\052a.cpp(23,22): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  052a.vcxproj -> D:\Namnhat\Together\De quy\githubDQ\Recursion\x64\Debug\052a.exe

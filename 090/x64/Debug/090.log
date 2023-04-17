@@ -1,2 +1,4 @@
 ﻿  090.cpp
+C:\Users\PC\source\repos\Together\Recursion\090\090.cpp(40,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC\source\repos\Together\Recursion\090\090.cpp(41,15): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
   090.vcxproj -> C:\Users\PC\source\repos\Together\Recursion\x64\Debug\090.exe

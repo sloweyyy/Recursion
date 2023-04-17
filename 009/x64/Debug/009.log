@@ -1,4 +1,1 @@
-﻿  Source.cpp
-C:\Users\PC\source\repos\Together\Recursion\009\Source.cpp(8,10): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
-C:\Users\PC\source\repos\Together\Recursion\009\Source.cpp(19,11): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
-  009.vcxproj -> C:\Users\PC\source\repos\Together\Recursion\x64\Debug\009.exe
+﻿  009.vcxproj -> C:\Users\PC\source\repos\Together\Recursion\x64\Debug\009.exe
