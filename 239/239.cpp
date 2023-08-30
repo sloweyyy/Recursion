@@ -20,6 +20,7 @@ void Xuat(float a[][100], int m, int n) {
 }
 
 float LonNhat(float a[][100], int m, int n, int d) {
+
     if (m == 0)
 		return a[0][d];
 	float max = LonNhat(a, m - 1, n, d);
@@ -29,6 +30,7 @@ float LonNhat(float a[][100], int m, int n, int d) {
 }
 
 int main() {
+
     int m, n;
     cout << "Nhap m: ";
     cin >> m;

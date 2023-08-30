@@ -10,6 +10,7 @@ int dem = 0;
 int n;
 
 void xuat() {
+
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++)
             cout << A[i][j] << " ";
@@ -20,6 +21,7 @@ void xuat() {
 
 
 bool diChuyen(int x, int y) {
+
     ++dem;
     A[x][y] = dem;
     if (dem == n * n) {
@@ -42,7 +44,9 @@ bool diChuyen(int x, int y) {
 }
 
 
-int main() {
+int main()
+{
+
     cout << "Nhap n: ";
     cin >> n;
     int a, b;
